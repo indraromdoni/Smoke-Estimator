@@ -6,11 +6,6 @@ import av
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, WebRtcMode, VideoProcessorBase, RTCConfiguration
 
-sample_wsl = "/mnt/c/Users/indra.romdoni/Documents/Belajar Python/SmokeSemanticSegmentation_Unet-main/Smoke-detector-4/videos/5.mp4"
-sample_video = "C:\\Users\\indra.romdoni\\Documents\\Belajar Python\\u-net segmentation\\data\\videos\\5.mp4"
-cctv = "rtsp://admin:adm12345@192.168.24.56/ISAPI/Streaming/channels/101/preview"
-theVid = cctv
-
 model = tensorflow.keras.models.load_model("smoke-detector7.h5")
 
 IMG_WIDTH = 256
