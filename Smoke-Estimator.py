@@ -11,7 +11,7 @@ sample_video = "C:\\Users\\indra.romdoni\\Documents\\Belajar Python\\u-net segme
 cctv = "rtsp://admin:adm12345@192.168.24.56/ISAPI/Streaming/channels/101/preview"
 theVid = cctv
 
-model = tensorflow.keras.models.load_model("smoke-detector5.h5")
+model = tensorflow.keras.models.load_model("smoke-detector7.h5")
 
 IMG_WIDTH = 256
 IMG_HEIGHT = 256
